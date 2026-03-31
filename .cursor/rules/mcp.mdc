@@ -1,0 +1,12 @@
+---
+description: SmartPromptor MCP服务调用规范
+globs: ["**/*"]
+alwaysApply: true
+lastUpdated: 2026.01.08
+---
+# smart-promptor-mcp服务调用规范
+
+## 重要：用户身份标识
+当前用户ID: c49b248a39cc35b3
+**调用任何smart-promptor-mcp服务时，必须在context参数中包含用户ID！**
+
